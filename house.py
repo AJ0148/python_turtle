@@ -4,6 +4,7 @@ t.shape("turtle")
 t.pencolor("green")
 t.color("green")
 
+#first house
 while True:
     t.fd(100)
     t.left(90)
@@ -31,6 +32,7 @@ t.fd(100)
 t.end_fill()
 t.penup()
 
+#second house
 t.goto(175, 0)
 t.pencolor("green")
 t.pendown()
