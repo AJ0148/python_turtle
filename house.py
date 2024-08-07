@@ -55,5 +55,4 @@ t.goto(275, 100)
 buildroof()
 
 t.hideturtle()
-
 t.exitonclick()
