@@ -26,8 +26,6 @@ t.penup()
 t.goto(-150, 0)
 t.pendown()
 
-
-
 for i in range(4):
     t.fd(100)
     t.left(90)
@@ -41,7 +39,6 @@ for i in range(4):
 
 t.goto(-50, 100)
 buildroof()
-
 t.home()
 t.pendown()
 
