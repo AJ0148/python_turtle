@@ -22,6 +22,10 @@ def fixroofcolors():
     t.pencolor("green")
     t.pendown()
 
+t.penup()
+t.goto(-150, 0)
+t.pendown()
+
 #first house
 while True:
     t.fd(100)
