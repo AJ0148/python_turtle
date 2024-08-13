@@ -20,6 +20,7 @@ def buildroof():
 
 def fixroofcolors():
     t.pencolor("green")
+    t.color("green")
     t.pendown()
 
 #first house
