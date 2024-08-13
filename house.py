@@ -4,6 +4,10 @@ t.shape("turtle")
 t.pencolor("green")
 t.color("green")
 
+def fixroofcolors():
+    t.pencolor("green")
+    t.pendown()
+
 #first house
 while True:
     t.fd(100)
