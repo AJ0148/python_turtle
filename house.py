@@ -4,6 +4,20 @@ t.shape("turtle")
 t.pencolor("green")
 t.color("green")
 
+def buildroof():
+    t.right(225)
+    t.pencolor("black")
+    t.fillcolor("black")
+    t.pendown()
+    t.begin_fill()
+    t.fd(70)
+    t.left(90)
+    t.fd(70)
+    t.left(135)
+    t.fd(100)
+    t.end_fill()
+    t.penup()
+
 def fixroofcolors():
     t.pencolor("green")
     t.pendown()
@@ -21,20 +35,6 @@ for i in range(4):
     t.pendown()
     t.left(90)
     t.fd(50)
-
-def buildroof():
-    t.right(225)
-    t.pencolor("black")
-    t.fillcolor("black")
-    t.pendown()
-    t.begin_fill()
-    t.fd(70)
-    t.left(90)
-    t.fd(70)
-    t.left(135)
-    t.fd(100)
-    t.end_fill()
-    t.penup()
 
 t.goto(100, 100)
 buildroof()
