@@ -26,6 +26,19 @@ t.penup()
 t.goto(-150, 0)
 t.pendown()
 
+
+
+for i in range(4):
+    t.fd(100)
+    t.left(90)
+
+for i in range(4):
+    t.penup()
+    t.goto(-100, 50)
+    t.pendown()
+    t.left(90)
+    t.fd(50)
+
 #first house
 while True:
     t.fd(100)
