@@ -22,6 +22,7 @@ def fixroofcolors():
     t.pencolor("green")
     t.pendown()
 
+#first house
 t.penup()
 t.goto(-150, 0)
 t.pendown()
@@ -42,7 +43,7 @@ buildroof()
 t.home()
 t.pendown()
 
-#first house
+#second house
 while True:
     t.fd(100)
     t.left(90)
@@ -59,7 +60,7 @@ for i in range(4):
 t.goto(100, 100)
 buildroof()
 
-#second house
+#third house
 t.goto(175, 0)
 t.pencolor("green")
 t.pendown()
