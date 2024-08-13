@@ -39,6 +39,12 @@ for i in range(4):
     t.left(90)
     t.fd(50)
 
+t.goto(-50, 100)
+buildroof()
+
+t.home()
+t.pendown()
+
 #first house
 while True:
     t.fd(100)
