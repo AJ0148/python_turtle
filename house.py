@@ -25,7 +25,7 @@ def fixroofcolors():
 
 #first house
 t.penup()
-t.goto(-150, 0)
+t.goto(-175, 0)
 t.pendown()
 
 for i in range(4):
@@ -34,12 +34,12 @@ for i in range(4):
 
 for i in range(4):
     t.penup()
-    t.goto(-100, 50)
+    t.goto(-125, 50)
     t.pendown()
     t.left(90)
     t.fd(50)
 
-t.goto(-50, 100)
+t.goto(-75, 100)
 buildroof()
 t.home()
 t.pendown()
