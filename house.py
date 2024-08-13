@@ -42,6 +42,7 @@ t.goto(-50, 100)
 buildroof()
 t.home()
 t.pendown()
+fixroofcolors()
 
 #second house
 while True:
@@ -62,8 +63,7 @@ buildroof()
 
 #third house
 t.goto(175, 0)
-t.pencolor("green")
-t.pendown()
+fixroofcolors()
 
 for i in range(4):
     t.fd(100)
