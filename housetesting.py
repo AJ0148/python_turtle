@@ -36,8 +36,24 @@ for i in range(4):
     t.left(90)
     t.fd(50)
 
-t.goto(100, 100)
-buildroof()
+t.penup()
+t.goto(50, 50)
+t.fd(15)
+t.left(90)
+t.fd(15)
+t.pencolor("black")
+t.pendown()
+t.fillcolor("lightblue")
+t.begin_fill()
+for i in range(4):
+    t.fd(20 )
+    t.right(90)
+t.end_fill()
 
-t.hideturtle()
 t.exitonclick()
+
+# t.goto(100, 100)
+# buildroof()
+
+# t.hideturtle()
+# t.exitonclick()
