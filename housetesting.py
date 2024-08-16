@@ -62,6 +62,19 @@ for i in range(4):
     t.fd(20)
     t.left(90)
 t.end_fill()
+t.penup()
+
+t.goto(50, 50)
+t.fd(15)
+t.right(90)
+t.fd(15)
+t.pendown()
+t.begin_fill()
+for i in range(4):
+    t.fd(20)
+    t.left(90)
+t.end_fill()
+t.penup()
 
 t.exitonclick()
 
