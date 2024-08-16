@@ -46,7 +46,7 @@ t.pendown()
 t.fillcolor("lightblue")
 t.begin_fill()
 for i in range(4):
-    t.fd(20 )
+    t.fd(20)
     t.right(90)
 t.end_fill()
 t.penup()
