@@ -60,4 +60,20 @@ for i in range(4):
 t.end_fill()
 t.penup()
 
+#door
+t.home()
+t.fd(80)
+t.left(90)
+t.fillcolor("#814f46")
+t.begin_fill()
+t.pendown()
+t.fd(25)
+t.right(90)
+t.fd(20)
+t.right(90)
+t.fd(25)
+t.right(90)
+t.fd(20)
+t.end_fill()
+
 t.exitonclick()
