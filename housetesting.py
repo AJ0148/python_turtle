@@ -4,7 +4,7 @@ t.shape("turtle")
 t.pencolor("green")
 t.color("green")
 
-
+#build house
 while True:
     t.fd(100)
     t.left(90)
@@ -18,6 +18,7 @@ for i in range(4):
     t.left(90)
     t.fd(50)
 
+#top right window
 t.penup()
 t.goto(50, 50)
 t.fd(15)
@@ -33,6 +34,7 @@ for i in range(4):
 t.end_fill()
 t.penup()
 
+#bottom left window
 t.goto(50, 50)
 t.bk(15)
 t.left(90)
@@ -45,6 +47,7 @@ for i in range(4):
 t.end_fill()
 t.penup()
 
+#top left window
 t.goto(50, 50)
 t.fd(15)
 t.right(90)
