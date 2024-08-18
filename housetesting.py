@@ -33,6 +33,14 @@ for i in range(4):
     t.right(90)
 t.end_fill()
 t.penup()
+t.goto(75, 75)
+t.pendown()
+t.pencolor("black")
+for i in range(4):
+    t.goto(75, 75)
+    t.right(90)
+    t.fd(10)
+t.penup()
 
 #bottom left window
 t.goto(50, 50)
