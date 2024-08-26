@@ -126,7 +126,6 @@ t.fd(20)
 t.end_fill()
 t.penup()
 
-
 t.goto(100, 100)
 t.left(180)
 buildroof()
