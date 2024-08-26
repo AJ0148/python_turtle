@@ -95,8 +95,6 @@ for i in range(4):
     t.left(90)
 t.end_fill()
 t.penup()
-
-t.penup()
 t.goto(25, 25)
 t.pendown()
 for i in range(4):
