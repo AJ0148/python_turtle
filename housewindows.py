@@ -56,7 +56,7 @@ t.end_fill()
 t.penup()
 
 for i in range(4):
-    t.goto(50, 50)
+    t.goto(25, 25)
     t.right(90)
     t.fd(10)
 
