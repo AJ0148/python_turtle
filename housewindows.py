@@ -54,11 +54,13 @@ for i in range(4):
     t.left(90)
 t.end_fill()
 t.penup()
-
+t.goto(25, 25)
+t.pendown()
 for i in range(4):
     t.goto(25, 25)
     t.right(90)
     t.fd(10)
+t.penup()
 
 #top left window
 t.goto(50, 50)
