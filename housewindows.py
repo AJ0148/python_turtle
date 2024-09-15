@@ -73,7 +73,19 @@ for i in range(4):
     t.fd(20)
     t.left(90)
 t.end_fill()
+
+for i in range(4):
+    t.goto(25, 75)
+    t.left(90)
+    t.fd(10)
+# t.fd(10)
+# t.left(90)
+# t.fd(10)
+# print(t.pos())
+
+t.exitonclick()
 t.penup()
+
 
 #door
 t.home()
