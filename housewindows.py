@@ -80,10 +80,7 @@ for i in range(4):
     t.goto(25, 75)
     t.left(90)
     t.fd(10)
-
-t.exitonclick()
 t.penup()
-
 
 #door
 t.home()
