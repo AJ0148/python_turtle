@@ -76,15 +76,10 @@ t.end_fill()
 t.penup()
 t.goto(25, 75)
 t.pendown()
-
 for i in range(4):
     t.goto(25, 75)
     t.left(90)
     t.fd(10)
-# t.fd(10)
-# t.left(90)
-# t.fd(10)
-# print(t.pos())
 
 t.exitonclick()
 t.penup()
