@@ -73,6 +73,9 @@ for i in range(4):
     t.fd(20)
     t.left(90)
 t.end_fill()
+t.penup()
+t.goto(25, 75)
+t.pendown()
 
 for i in range(4):
     t.goto(25, 75)
